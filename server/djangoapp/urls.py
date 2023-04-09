@@ -9,9 +9,14 @@ urlpatterns = [
     # view refers to the view function
     # name the URL
 
+    # path('/templates/static/', views.staticRes),
+    path('static/', views.staticRes),
+
     # path for about view
+    path('about/', views.aboutPage),
 
     # path for contact us view
+    path('contact/', views.contactUs),
 
     # path for registration
 
